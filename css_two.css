@@ -1,0 +1,897 @@
+html,body{
+    width:100%;
+    height:100%;
+    border:0;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    color:#333;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f2f2f2;
+}
+.m-top{
+    position:relative;
+    z-index:1000;
+    height:70px;
+    box-sizing:border-box;
+    background:#242424;
+    border-bottom:1px solid #000;
+}
+div{
+    display:block;
+}
+.m-top .wrap{
+    width:1100px;
+    margin:0 auto;
+}
+.m-top .logo, .m-nav .cor, .m-nav .hot, .m-srch .srchbg, .m-mail, .m-tophead, .m-topvd{
+    background: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?7d1d5d8e4f00cc5d6143ca737b681a88) no-repeat 0 9999px;
+    background-position-x: 0px;
+    background-position-y: 9999px;
+    position:relative;
+    bottom:19px;   
+}
+.m-top .logo {
+    float: left;
+    width: 176px;
+    height: 69px;
+    background-position: 0 0;
+}
+ul{
+    display:block;
+    list-style-type: none;
+}
+li{
+    display:list-item;
+}
+.m-nav a.z-slt{
+    background:#000;
+    text-decoration:none;
+    color:#fff;
+}
+.m-nav a{
+    padding: 0 19px;
+    text-align:center;
+    line-height:70px;
+    color:#ccc;
+}
+.m-nav li, .m-nav a{
+    float:left;
+    height:70px;
+    font-size:14px;
+    text-decoration:none;
+}
+.m-nav a:hover,
+a:active {
+    background-color: #000;
+}
+.m-tophead{
+        float: right;
+        height: 45px;
+        margin: 19px 0 0 20px;
+        padding: 0 22px 0 0;
+        right: -47px;
+        background-image: none;
+} 
+.m-tophead .link, .m-tophead .link:hover {
+    display: block;
+    width: 28px;
+    margin-top: 7px;
+    margin-left:12px;
+    color:#787878;
+}
+.link{
+    position:relative;
+    right:60px;
+    cursor:pointer;
+    text-decoration:none;
+    float:right;
+}
+.m-topvd {
+    float: right;
+    width: 90px;
+    height: 32px;
+    margin: 16px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+    background-position: 0 -140px;
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+}
+.m-creator-center {
+    background: none !important;
+}
+.f-pr {
+    position: relative;
+    zoom:1;
+    text-decoration: none;
+}
+.m-srch, .m-srch .srchbg {
+    float: right;
+    width: 158px;
+    height: 32px;
+}
+.m-srch .srchbg {
+    margin-top: 19px;
+    background-position: 0 -99px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+.m-srch .parent {
+    display: block;
+    position: relative;
+    margin: 8px 0 0 30px;
+}
+.m-srch .parent input {
+    color:#333;
+    line-height: 16px;
+}
+.m-srch .parent input{
+    width:95%;
+    margin:0;
+    padding:0;
+    background:transparent;
+    color:#fff;
+}
+img,.txt{
+    border:0;
+}
+.m-srch .parent label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    color: #9b9b9b;
+    cursor: text;
+}
+.txt {
+    border: 0;
+    background:none;
+}
+.m-subnav{
+    z-index:90;
+    height:35px;
+    box-sizing:border-box;
+    background-color:#C20C0C;
+    border-bottom:1px solid #a40011;
+}
+.m-subnav .wrap{
+    width:1100px;
+    height:34px;
+    margin:0 auto ;
+}
+.f-pr{
+    position:relative;
+    zoom:1;
+}
+.m-subnav .nav {
+    float: left;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    left:13px;
+}
+.m-subnav .nav li,.m-subnav .nav a{
+    float:left;
+    height:34px;
+    text-align:center;
+}
+li{
+    display:list-item;
+}
+.m-subnav .nav a:hover,.m-subnav .nav a.z-slt{
+    display:inline-block;
+    color:#fff;
+    text-decoration:none;
+}
+.z-slt{
+    width:84px;
+    line-height:34px;
+}
+.z-slt_one{
+    width:96px;
+}
+.z-slt_two{
+    width:108px;
+}
+.n-ban{
+    width:100%;
+    height:285px;
+    background:red;
+}
+.g-bd1{
+    background:url(http://s2.music.126.net/style/web2/img/frame/wrap1.png?b832e0d8a9899818f45013a9999e2c7f)
+     repeat-y 100% 100%;
+}
+.g-bd,.g-bd1,.g-bd2,.g-bd3,.g-bd4,.g-bd5,.g-bd6,.g-bd7{
+    width:980px;
+    margin:0 auto;
+    height:1364px;
+    background-color:#fff;
+    border:1px solid #d3d3d3;
+    border-width:0 1px;
+}
+.g-mn1{
+    float:left;
+    width:100%;
+    margin-right:-250px;
+}
+.g-mn1c{
+    margin-right:251px;
+}
+.g-wrap3{
+    padding:20px 20px 0;
+    height:auto;
+}
+.v-hd2{
+    height:33px;
+    padding:0 10px 0 34px;
+    background-position:-225px -156px;
+    border-bottom:2px solid #C10D0C;
+}
+
+.v-hd2 .tit{
+    float:left;
+    font-size:20px;
+    font-weight:normal;
+    line-height:28px;
+}
+.f-tdn,.f-tdn:hover{
+    text-decoration:none;
+}
+.f-ff2{
+    font-family:"Microsoft Yahel", Arial,Helvetica,sans-serif;
+}
+ a{
+    text-decoration:none;
+}
+.v-hd2 .tab{
+    float:left;
+    margin:7px 0 0 20px;
+}
+.s-fc3,a.s-fc3:hover{
+    color:#666;
+}
+.v-hd2 .tab .line{
+    margin:0 10px;
+    color:#ccc;
+}
+.v-hd2 .more{
+    float:right;
+    margin-top:9px;
+}
+.n-rcmd .m-cvrlst{
+    margin:20px 0 0 -42px;
+}
+.s-bg,.v-hd2,.n-disk li{
+    background:url(http://s2.music.126.net/style/web2/img/index/index.png?456f25laleb9f55289022427e268ebcf)
+    no-repeat 0 9999px;
+}
+.n-rcmd .m-cvrlst li{
+    position:relative;
+    width:140px;
+    height:204px;
+    right:30px;
+}
+.m-cvrlst li{
+    display:block;
+    float:left;
+    overflow:hidden;
+    width:140px;
+    height:188px;
+    padding: 0 0 30px 32px;
+    margin-right:0.7px;
+    line-height:1.4;
+}
+li{
+    list-style:none;
+    text-decoration:none;
+}
+.u-cover-1{
+    width:140px;
+    height:140px;
+}
+.u-cover{
+    position:relative;
+    display:block;
+}
+.u-cover .nb{
+    float:left;
+    margin:7px 0 0 0;
+}
+.u-cover .bottom{
+    position:absolute;
+    bottom:0;
+    left:0px;
+    width:100%;
+    height:27px;
+    background-position:0 -537px;
+    color:#ccc;
+}
+.f-fr{
+    float:right;
+}
+.m-cvrlst li .dec{
+    margin:8px 0 3px;
+    font-size:14px;
+}
+.m-cvrlst li p{
+    width:100%;
+}
+p{
+    display:block;
+    margin-top:1em 0 0 1em;
+}
+.n-clmnad{
+    position:relative;
+    margin:0 0 35px;
+}
+.f-hide,.js-hide{
+    display:none !important;
+}
+.n-new{
+    margin:0;
+}
+.n-disk{
+    position: absolute;
+    zoom:1;
+    height:186px;
+    margin:20px 0 37px;
+    border:1px solid #d3d3d3;
+}
+.n-disk .inner{
+    height:184px;
+    background:#f5f5f5;
+    border:1px solid #fff;
+}
+.n-disk .pre{
+    left:4px;
+}
+.n-disk .pre, .n-disk .nxt{
+    position: absolute;
+    top:71px;
+    width:17px;
+    height:17px;
+}
+.s-bg-7{
+    background-position:-260px -75px;
+}
+.n-disk li{
+    float:left;
+    display:block;
+    width:118px;
+    height:150px;
+    margin-left:11px;
+    background-position:-260px 100px;
+}
+.v-hd3{
+    border-bottom:2px solid #C10D0C;
+}
+.v-hd3 .tit{
+    position:relative;
+    top:-7px;
+    left:30px;
+    font-size:20px;
+    font-weight:normal;
+}
+.v-hd3 .more{
+    float:right;
+    position:relative;
+    top:-7px;
+    margin-top:9px;
+}
+.n-bill{
+    position: relative;
+    top:230px;
+}
+.s-bg, .v-hd2, .n-disk li {
+    background: url(http://s2.music.126.net/style/web2/img/index/index.png?456f25laleb9f55289022427e268ebcf) 
+    no-repeat 0 9999px;
+        background-position-x: 0px;
+        background-position-y: 9999px;
+}
+.n-bilst{
+    height:472px;
+    margin-top:20px;
+    padding-left:1px;
+}
+.n-bilst {
+    background: url(http://s2.music.126.net/style/web2/img/index/index_bill.png?99f037778c5f2d685d25e9b5c33bffc7) 
+    no-repeat;
+}
+dl,dd,ol,p,li{
+    margin:0;
+    padding:0;
+}
+.n-bilst .blk{
+    float:left;
+    width:230px;
+}
+.n-bilst .top{
+    display:block;
+    position:relative;
+    top:-10px;
+    height:80px;
+    padding:20px 0 0 19px;
+}
+.n-bilst .cver{
+    float:left;
+    display:block;
+}
+.n-bilst .tit{
+    float:left;
+    width:116px;
+    margin:6px 0 0 10px;
+}
+.n-bilst .tit .h3{
+    width:100%;
+}
+.f-thide{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+}
+.f-fs1{
+    font-size:14px;
+}
+.n-blist .btn{
+    margin-top:10px;
+}
+
+dl{
+    display:block;
+    margin:1em 0;
+}
+dd{
+    display:block;
+    position: relative;
+    top:-3px;
+}
+.n-bilst ol{
+    height:319px;
+    margin-left:50px;
+    line-height:32px;
+}
+.n-bilst ol .no-top{
+    color:#c10d0c;
+}
+.n-bilst ol .no{
+    float:left;
+    position:relative;
+    width:35px;
+    height:32px;
+    margin-left:-35px;
+    text-align:center;
+    font-size:16px;
+}
+.n-bilst ol li *{
+vertical-align:middle;
+}
+ol{
+    display:block;
+    list-style-type:decimal;
+    margin:1em 0 ;
+}
+li{
+    display:list-item;
+}
+.n-bilst .more{
+    clear:both;
+    margin-right:32px;
+    text-align:right;
+}
+.n-bilst .blk-1{
+    width:228px;
+}
+
+.g-ft{
+    position:relative;
+    overflow:hidden;
+    background:#f2f2f2;
+}
+.m-ft
+{
+    width:980px;
+    height:111px;
+    margin:0 auto;
+}
+.m-ft .copy{
+    float:left;
+    width:520px;
+    padding-top:15px;
+    line-height:24px;
+}
+.link{
+    display:block;
+    float:left;
+    margin-left:60px;
+}
+p{
+    display:inline-block;
+}
+.s-f4,.s-f4:hover{
+    color:#999;
+}
+.m-ft .copy .line{
+    margin:0 8px 0 10px;
+    color:#c2c2c2;
+}
+.s-fc3, a.s-fc3:hover{
+    color:#666;
+}
+.m-ft .copy .sep{
+    margin-right:14px;
+}
+.m-ft .enter{
+    width:330px;
+    margin-top:33px;
+}
+.f-fr{
+    float:right;
+}
+.m-ft .enter .unit{
+    float:left;
+    width:60px;
+    height:70px;
+    margin-left:20px;
+    text-align:center;
+    color:#666;
+}
+.m-ft .logonew.logo-auth{
+    background-position:-63px -101px;
+}
+.m-ft .logo.logonew{
+    background:url(https://s2.music.126.net/style/web2/img/foot_enter_new.png?3b9d48e5484219a4b107690970ffcfe3)
+    no-repeat;
+    background-size:110px 450px;
+}
+.m-ft .logonew{
+    display:block;
+    float:none;
+    width:50px;
+    height:45px;
+    margin:0 auto;
+}
+.m-ft .logo{
+    background:url(https://s2.music.126.net/style/web2/img/foot_enter.png?3b49c6abfc9baaaaacd404cbdb1d3c02)
+    no-repeat 0 9999px;
+}
+.f-tid{
+    text-indent:-9999px;
+}
+.m-ft .enter .tt-auth{
+    background-position:-1px 91px;
+}
+.m-ft .enter .tt{
+    display:inline-block;
+    margin:5px 5px 0 ;
+    width:52px;
+    height:14px;
+}
+.m-ft .logonew + .tt{
+    background:url(http://s2.music.126.net/style/web2/img/foot_enter_tt.png?66f2a122d599f0ddd94eae265c62a738)
+    no-repeat;
+    background-size:180px 100px;
+}
+.m-ft .logonew.logo-musician{
+    background-position:-63px -101px;
+}
+.m-ft .logo-musician{
+    background-position:-60px -80px;
+    margin-left:0;
+}
+.m-ft .enter .tt-musician{
+    background-position:0 0;
+}
+.m-ft .logonew.logo-reward{
+    background-position:-60px -50px;
+}
+.m-ft .enter .tt-reward{
+    background-position:0 -54px;
+}
+.m-ft .logonew.logo-cash{
+    background-position:0 -101px;
+}
+.m-ft .enter .tt-cash{
+    background-position:-1px -72px;
+}
+.g-sd1{
+    position:relative;
+    float:right;
+    width:250px;
+    zoom:1
+}
+.f-cb{
+    padding:0;
+}
+.v-hd4{
+    position:relative;
+    height:23px;
+    margin:0 20px;
+    color:#333;
+    border-bottom:1px solid #ccc;
+}
+.f-f1{
+    float:left;
+    font-size:80%;
+}
+.v-hd4 .more{
+    float:right;
+    font-weight:normal;
+    font-size:80%;
+}
+.n-enter{
+    margin:6px 0 14px 20px;
+}
+.n-enter .head,.n-enter .head img{
+    float:left;
+    width:62px;
+    height:62px;
+}
+.n-enter .ifo{
+    float:left;
+    width:133px;
+    height:60px;
+    padding-left:14px;
+    border:1px solid #e9e9e9;
+    border-left:none;
+}
+.n-enter h4{
+    margin-top:8px;
+}
+.n-enter .nm{
+    width:90%;
+}
+.f-ib{
+    display:inline-block;
+}
+.n-enter li{
+    margin-top:14px;
+}
+.n-enter li, .n-enter .itm{
+    float:left;
+    width:210px;
+    height:62px;
+    background:#fafafa;
+}
+.n-singer .u-btn2{
+    margin-top:10px;
+    margin-left:20px;
+    border-radius:4px;
+}
+.u-btn2-1{
+    color:#333;
+    background-position:right -100px;
+}
+.u-btn2,.u-btn2:hover{
+    text-decoration:none;
+}
+.u-btn2{
+    padding:0 5px 0 0;
+    white-space:nowrap;
+}
+.u-btn2,.u-btn2 i{
+    display:inline-block;
+    height:31px;
+    line-height:31px;
+    overflow:hidden;
+    vertical-align:top;
+    cursor:pointer;
+}
+.u-btn2, .u-btn2 i,.u-btn2 .icn, .u-btni, .u-btni i, .u-tag,.u-tag i,.u-btni-addply .ply{
+    background:url(https://s2.music.126.net/style/web2/img/button2.png?ab72a1cd3223504ba11423e33387a47d)
+    no-repeat 0 9999px;
+}
+.n-singer .u-btn2 i{
+    width:170px;
+    font-weight:bold;
+    font-style:normal;
+    text-align:center;
+}
+.u-btn2-1 i{
+    color:#333;
+    background-position:0px -59px;
+}
+.u-btn2 i{
+    padding:0 15px 0 20px;
+}
+.n-myinfo-1{
+    height:126px;
+    padding-top:0;
+}
+.s-bg-1{
+    background-position:0 0;
+}
+.n-myinfo .note{
+    position:relative;
+    left:22.5px;
+    width:205px;
+    margin:0 auto;
+    padding:16px 0 ;
+    line-height:22px;
+}
+.n-myinfo .btn{
+    display:block;
+    width:100px;
+    height:31px;
+    margin:0 auto;
+    line-height:31px;
+    text-align:center;
+    color:#fff;
+    text-shadow:0 1px 0 #8a060b;
+}
+.s-bg-2{
+    background-position:0 -195px;
+}
+.n-singer{
+    margin-top:15px;
+}
+
+.n-dj-1{
+    margin-top:30px;
+}
+.n-hotdj{
+    margin:20px 0 0 20px;
+}
+.n-hotdj li{
+    float:left;
+    width:210px;
+    height:50px;
+}
+.n-hotdj .cver{
+    float:left;
+    width:40px;
+    margin-right:10px;
+}
+.n-hotdj .cver .img{
+    width:40px;
+    height:40px;
+    box-shadow:0 0 1px #333333 inset;
+}
+.n-hotdj .info{
+    float:left;
+    width:160px;
+    line-height:21px;
+}
+.n-hotdj .nm-icn{
+    display:inline-block;
+    zoom:1;
+    max-width:88%;
+    vertical-align:middle;
+}
+.s-fc0,a.s-fc0:hover{
+    color:#000;
+}
+.nohotdj .info .u-icn{
+    margin-top:-1px;
+}
+.u-icn-1{
+    width:11px;
+    height:13px;
+    background-position:0 1px;
+    font-size:100%;
+    font-style:normal;
+}
+.u-icn,.u-icn2,.u-icn3{
+    display:inline-block;
+    overflow:hidden;
+    vertical-align:middle;
+}
+.u-icn,.u-title-1 .out .icon{
+    background:url(https://s2.music.126.net/style/web2/img/icon.png?831cdeeee6550e43e63d1cb39ae334cb) 
+    no-repeat 0 9999px;
+}
+sup{
+    vertical-align:super;
+    font-size:smaller;
+}
+.n-ban{
+    background-size:6000px;
+    background-position:center center;
+    background-image:url(http://p1.music.126.net/QeLAibI0AKnpnJiT9opZgg==/109951164637503130.jpg?imageView&blur=40x20);
+}
+.n-ban .wrap{
+    position:relative;
+    width:982px;
+    height:285px;
+    margin:0 auto;
+}
+.n-ban .ban{
+    width:982px;
+    height:285px;
+}
+.n-ban .ban-img{
+    width:100%;
+    height:285px;
+    overflow:hidden;
+}
+.n-ban .ban .btn1{
+    left:-68px;
+    background-position:0 -360px;
+}
+.n-ban .ban .btn1,.n-ban .ban .btnr{
+    display:block;
+    position:absolute;
+    top:50%;
+    margin-top:-31px;
+    width:37px;
+    height:63px;
+    text-indent:-9999px;
+}
+.n-ban .dots{
+    position:absolute;
+    top:259px;
+    left:0;
+    width:730px;
+    height:20px;
+    text-align:center;
+}
+.n-ban .dots .pg{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-position:3px -343px;
+}
+.n-ban .dots .pg{
+    background:url(../../style/web2/img/index/banner.png?45e21a2fe0d797875346db6c1c16c3d7) 0 9999px no-repeat
+}
+.n-ban .download{
+    position:absolute;
+    top:0px;
+    z-index:20;
+    right:0px;
+    width:254px;
+    height:285px;
+}
+.n-ban .download,.n-ban .download .btn{
+    background:url(https://s2.music.126.net/style/web2/img/index/download.png?4f5ab8dbbb9a1831336b5c632b668058)
+    no-repeat 0 0;
+}
+.n-ban .download .btn{
+    display:block;
+    width:215px;
+    height:56px;
+    margin:186px 0 0 19px;
+    background-position:0 9999px;
+    text-indent:-9999px;
+}
+.n-ban .download p{
+    margin:10px 16px;
+    color:#8d8d8d;
+}
+.n-ban .download .shadow,.n-ban .download .shadowr{
+    display:block;
+    position:absolute;
+    top:0;
+    left:-20px;
+    width:20px;
+    height:285px;
+    background-position:-1px 0;
+}
+.n-ban .shadow,.n-ban .shadowr,.n-ban .ban .btn1,.n-ban .ban .btnr,.n-ban .dots .pg{
+    background:url(https://s2.music.126.net/style/web2/img/index/banner.png?11dbb2c3a90fe973406324834afc01d8)
+}
+.n-ban .download .shadowr{
+    left:auto;
+    right:-20px;
+    background-position:-20px 0;
+}
+.n-ban .download .shadow,.n-ban .download .shadowr{
+    display:block;
+    position:absolute;
+    top:0;
+    left:-18px;
+    width:20px;
+    height:285px;
+    background-position:-1px 0;
+}
+
+
+
+
